@@ -1,0 +1,22 @@
+{%extends 'base.html'%}
+
+{%block main_block%}
+<div class="container mt-5 d-flex justify-content-center">
+
+  <div class="card" style="width: 18rem;">
+      <div class="card-header">
+        Tile:{{data.title}}
+      </div>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item">year:{{data.year}}</li>
+        <li class="list-group-item">run_time{{data.run_time}}</li>
+        <li class="list-group-item">Language :{{data.language}}</li>
+        <li class="list-group-item">Director :{{data.director}}</li>
+        <li class="list-group-item">producer :{{data.producer}}</li>
+        <li class="list-group-item">Genre :{{data.genre}}</li>
+      </ul>
+    </div>
+
+</div>
+
+{%endblock%}
